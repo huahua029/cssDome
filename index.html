@@ -3,7 +3,17 @@
 
 <head>
     <title>方方的个人简历</title>
-    <link rel="stylesheet" href="./a.css">
+    <link rel="stylesheet" href="./b.css">
+    <script src="http://at.alicdn.com/t/font_844988_mpl7l5zf8q.js"></script>
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,19 +35,24 @@
             </nav>
         </div>
     </div>
-    <div class="banner" style="background-image: url(./rs-cover.jpg)"></div>
+    <div class="banner">
+        <div class="mask"></div>
+    </div>
     <main>
-        <div class="card">
-            <div class="picture">
-                <img src="" alt="头像">
-            </div>
-            <div class="text">
-                <div class="profile">
-                    <span class="welcome">Hello</span>
+        <div class="userCard">
+            <div class="pictureAndText clearfix">
+                <div class="picture">
+                    <img src="./img/avatar.jpg" alt="头像">
+                </div>
+                <div class="text">
+
+                    <span class="welcome">Hello
+                    <span class="triangle"></span>
+                    </span>
                     <h1>方应杭</h1>
                     <p>前端开发工程师</p>
                     <hr>
-                    <dl>
+                    <dl class="clearfix">
                         <dt>年龄</dt>
                         <dd>18</dd>
                         <dt>所在城市</dt>
@@ -48,16 +63,29 @@
                         <dd>13812345678</dd>
                     </dl>
                 </div>
-                <footer class="media">
-                    <a href="#"><img src="#" alt="..."></a>
-                    <a href="#"><img src="#" alt="..."></a>
-                    <a href="#"><img src="#" alt="..."></a>
-                    <a href="#"><img src="#" alt="..."></a>
-                    <a href="#"><img src="#" alt="..."></a>
-                    <a href="#"><img src="#" alt="..."></a>
-                    <a href="#"><img src="#" alt="..."></a>
-                </footer>
             </div>
+            <footer class="media">
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixin"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-3zhihuicon3"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weibo"></use>
+                    </svg>
+                </a>
+            </footer>
         </div>
 
         <a class="button" href="#">下载 PDF 简历</a>
