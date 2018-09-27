@@ -31,7 +31,7 @@
 第一步，取消导航条的左右padding；效果如图２，发现效果还不好
 第二步，添加一个div，包裹导航条。（同时注意清除浮动），给这个div设置左右padding就可以。如图３．
 
-#icon全解
+# icon全解
 方法：
 １．img法
 ２．background法
@@ -39,20 +39,20 @@
 ４．font法
 ５．SVG法
 ６．新手慎用【CSS就是干】法
-###img法
+### img法
 直接用img标签就可以。
 好处：可以自适应，可以设置宽高。
-###background法
+### background法
 用background背景图设置；
 注意设置no-repeat；
 好处，当div的宽高发生变化时，背景图不会随着它变化。
 在css sprites（雪碧图）中应用，直接使用生成器就可以～
-###icon-font
+### icon-font
 使用字体文件就可以。这个字体文件比较特殊是icon。
 可以用html/css/js来分别实现
 
-###SVG推荐使用
+### SVG推荐使用
 **优先使用symbol**
 这三种的使用方法，查看iconfont
-###css画，不推荐
+### css画，不推荐
 参考：cssicon.space
