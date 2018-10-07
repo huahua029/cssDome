@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>底部滑动的border</title>
+  <style>
+    a{
+  display:inline-block;
+}
+a:hover::after{
+  content:'';
+  display:block;
+  top:100%;
+  left:0;
+  height:2px;
+  background: #000;
+  animation:0.5s linear silde;
+}
+@keyframes silde{
+  from{
+    width:0;
+  }
+  to{
+    width:100%;
+  }
+}
+  </style>
+</head>
+<body>
+  <div>底部滑动的<a>border</a></div>
+</body>
+</html>
